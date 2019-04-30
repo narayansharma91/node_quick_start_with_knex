@@ -1,7 +1,7 @@
 const { userRepo } = require('./users');
 
-const registerAllRepos = ({ models }) => ({
-  userRepo: userRepo({ models }),
+const registerAllRepos = ({ knex }) => ({
+  userRepo: userRepo({ knex: knex('users') }),
 });
 module.exports = {
   registerAllRepos,

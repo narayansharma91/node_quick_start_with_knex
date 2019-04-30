@@ -1,23 +1,9 @@
-const userRepo = ({ models: { User, UserType } }) => {
-  const getUsers = () => User.findAll({
-    attributes: ['firstName', 'lastName', 'email'],
-    include: [
-      {
-        model: UserType,
-        attributes: ['name'],
-      },
-    ],
-  });
-  const getUserDetail = id => User.findOne({
-    where: { id },
-    include: [
-      {
-        model: UserType,
-        attributes: ['name'],
-      },
-    ],
-  });
-  const createUser = data => User.create(data);
+const userRepo = ({ knex }) => {
+  const getUsers = () => knex;
+  const getUserDetail = id => knex.where({ id }).select('*');
+  const createUser = data => knex
+    .insert({ ...data, ...{ createdAt: new Date(), updatedAt: new Date() } })
+    .returning('*');
   return {
     getUsers,
     getUserDetail,
