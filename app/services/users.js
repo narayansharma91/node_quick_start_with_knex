@@ -8,7 +8,8 @@ const userService = ({
   const getUserService = () => getUsers();
   const getUserDetailService = async (id) => {
     const userInfo = await getUserDetail(id);
-    if (!userInfo) {
+    const userExist = !!userInfo;
+    if (!userExist) {
       throw new UserNotFound('User not found');
     }
     return userInfo;
