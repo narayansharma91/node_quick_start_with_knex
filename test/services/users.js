@@ -25,7 +25,6 @@ describe('User services', async () => {
     userId = userInfo.id;
     assert.isNotNull(userInfo, 'Unable to create user.');
   });
-
   it('userService#getUserService()', async () => {
     const users = await userService.getUserService();
     assert.isNotNull(users, 'Unable to load users.');
