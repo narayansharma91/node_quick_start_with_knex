@@ -23,7 +23,6 @@ describe('User services', async () => {
     const fakeUser = singleFakeUser();
     const userInfo = await userService.createUserService(fakeUser);
     userId = userInfo.id;
-    console.log('user id '+userId);
     assert.isNotNull(userInfo, 'Unable to create user.');
   });
 
@@ -37,7 +36,6 @@ describe('User services', async () => {
     assert.isNotNull(user, 'Unable to load user details.');
   });
   it('userService#getUserService()#notfoundExeption', async () => {
-    console.log( await userService.getUserDetailService(1001));
     await expect(userService.getUserDetailService(1001)).to.be.rejected;
   });
 });
