@@ -1,5 +1,5 @@
 {
-  "name": "node_best_practice",
+  "name": "node_quick_start_with_knex",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,6 @@
     "express": "^4.16.4",
     "express-validator": "^5.3.1",
     "knex": "^0.16.5",
-    "knex-cleaner": "^1.1.4",
     "mysql2": "^1.6.5",
     "objection": "^1.6.8"
   },
@@ -33,13 +32,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/narayansharma91/node_quick_start.git"
+    "url": "https://github.com/narayansharma91/node_quick_start_knex"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/narayansharma91/node_quick_start.git/issues"
+    "url": "https://github.com/narayansharma91/node_quick_start_knex/issues"
   },
-  "homepage": "https://github.com/narayansharma91/node_quick_start.git#readme"
+  "homepage": "https://github.com/narayansharma91/node_quick_start_knex#readme"
 }
