@@ -17,7 +17,7 @@ git clone https://github.com/narayansharma91/node_quick_start_knex.git
 ```
 * Goto your project directory by command line.
 ```
-cd /path/of/clone directory
+cd /node_quick_start_knex
 ```
 * Install dependency of project using given below command
 ```
@@ -53,7 +53,7 @@ nodemon index.js
    - **repo :** The repo directory holds all the files which is associated with sql query. For every model it should be one    repo file.
    
   - **knex :** This directory contains migrations and seeder of your application.
-    
+  - **models :** This directory contains all the application models.   
   - **services :** The services directory holds all the application services. All the business logic should write in service file. Its same as controller in MVC design pattern.
   
   - **util :** The util directory holds helper files which can be reusable all over the application. 
@@ -61,6 +61,12 @@ nodemon index.js
  - **app.js :** The app.js file is responsible for register all the routes.
  
  - **config.js :** The config.js file is responsible for provide application level configuration based on environment. 
+ 
+ ### Official website/url for different packages.
+ - Validation (express-validator) : https://express-validator.github.io/docs/
+ - Query Builder (knex) : https://knexjs.org/
+ - ORM (objection) : https://vincit.github.io/objection.js/
+
 
 ```
 
