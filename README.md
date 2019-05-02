@@ -8,7 +8,7 @@
 - Validation
 - Linter (eslint, prettier) for code guideline and increase the readability of the code.
 ### Project Workflow
-![alt text](https://github.com/narayansharma91/node_quick_start_knex/blob/master/application_architecture.jpg)
+![alt text](https://github.com/narayansharma91/node_quick_start_knex/blob/master/app_architecture.jpg)
 
 ### Quick setup
 
