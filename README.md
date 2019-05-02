@@ -17,7 +17,7 @@ git clone https://github.com/narayansharma91/node_quick_start_knex.git
 ```
 * Goto your project directory by command line.
 ```
-cd /path/of/clone directory
+cd /node_quick_start_knex
 ```
 * Install dependency of project using given below command
 ```
@@ -61,6 +61,12 @@ nodemon index.js
  - **app.js :** The app.js file is responsible for register all the routes.
  
  - **config.js :** The config.js file is responsible for provide application level configuration based on environment. 
+ 
+ ### Official website/url for different packages.
+ - Validation (express-validator) : https://express-validator.github.io/docs/
+ - Query Builder (knex) : https://knexjs.org/
+ - ORM (objection) : https://vincit.github.io/objection.js/
+
 
 ```
 
