@@ -53,7 +53,7 @@ nodemon index.js
    - **repo :** The repo directory holds all the files which is associated with sql query. For every model it should be one    repo file.
    
   - **knex :** This directory contains migrations and seeder of your application.
-    
+  - **models :** This directory contains all the application models.   
   - **services :** The services directory holds all the application services. All the business logic should write in service file. Its same as controller in MVC design pattern.
   
   - **util :** The util directory holds helper files which can be reusable all over the application. 
