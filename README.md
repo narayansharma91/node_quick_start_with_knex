@@ -3,7 +3,7 @@
 - Configured database connection.
 - Exception Handling
 - Implemented powerful query builder **knex**
-- Implemented **objection.js** a pwerful ORM for knex.
+- Implemented **objection.js** a pwerful **ORM** package for knex.
 - Unit Test
 - Validation
 - Linter (eslint, prettier) for code guideline and increase the readability of the code.
