@@ -7,8 +7,18 @@
 - Unit Test
 - Validation
 - Linter (eslint, prettier) for code guideline and increase the readability of the code.
-### Project Workflow
-![alt text](https://github.com/narayansharma91/node_quick_start_knex/blob/master/app_architecture.jpg)
+
+<hr />
+
+### Application File/Directory Structure
+![alt text](https://github.com/narayansharma91/repo_images/blob/master/node_quick_start_with_knex/node_quick_start_with_knex_file_structure.jpg)
+
+<hr />
+
+### Application layer Architecture
+![alt text](https://github.com/narayansharma91/repo_images/blob/master/node_quick_start_with_knex/node_quick_start_with_knex_application_layer.jpg)
+
+<hr />
 
 ### Quick setup
 
@@ -38,32 +48,13 @@ copy manually .env.example and rename with .env name
 ```
 knex migrate:latest
 ```
-
 * Start project using below command.
 ```
 nodemon index.js
 ```
-### Directory/File Structure
-- **index.js:** The index.js file is the entry point of the application where all the services, packages are registered to bootstrap your application.
-- **app :** The app directory holds all application source code eg. services, repo etc.
-  
-  - **http :** The http directory contains two sub directory for store validation rules and register application routes.
-    - **request :** The request directory containts all validation rules for your application.
-    
-    - **routes :** The routes directory contains all the application routes.
-    
-   - **repo :** The repo directory holds all the files which is associated with sql query. For every model it should be one    repo file.
-   
-  - **knex :** This directory contains migrations and seeder of your application.
-  - **models :** This directory contains all the application models.   
-  - **services :** The services directory holds all the application services. All the business logic should write in service file. Its same as controller in MVC design pattern.
-  
-  - **util :** The util directory holds helper files which can be reusable all over the application. 
-  
- - **app.js :** The app.js file is responsible for register all the routes.
- 
- - **config.js :** The config.js file is responsible for provide application level configuration based on environment. 
- 
+
+<hr />
+
  ### Official website/url for different packages.
  - Validation (express-validator) : https://express-validator.github.io/docs/
  - Query Builder (knex) : https://knexjs.org/
