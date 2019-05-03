@@ -7,6 +7,7 @@
 - Unit Test
 - Validation
 - Linter (eslint, prettier) for code guideline and increase the readability of the code.
+![alt text](https://github.com/narayansharma91/repo_images/blob/master/node_quick_start_with_knex_directory_structure.jpg)
 ### Project Workflow
 ![alt text](https://github.com/narayansharma91/node_quick_start_knex/blob/master/app_architecture.jpg)
 
