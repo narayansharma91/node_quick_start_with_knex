@@ -11,12 +11,12 @@
 <hr />
 
 ### Application File/Directory Structure
-![alt text](https://github.com/narayansharma91/repo_images/blob/master/node_quick_start_with_knex_file_structure.jpg)
+![alt text](https://github.com/narayansharma91/repo_images/blob/master/node_quick_start_with_knex/node_quick_start_with_knex_file_structure.jpg)
 
 <hr />
 
 ### Application layer Architecture
-![alt text](https://github.com/narayansharma91/node_quick_start_knex/blob/master/app_architecture.jpg)
+![alt text](https://github.com/narayansharma91/repo_images/blob/master/node_quick_start_with_knex/node_quick_start_with_knex_application_layer.jpg)
 
 <hr />
 
