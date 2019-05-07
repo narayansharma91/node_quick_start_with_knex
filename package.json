@@ -33,13 +33,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/narayansharma91/node_quick_start_knex"
+    "url": "https://github.com/narayansharma91/node_quick_start_with_knex"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/narayansharma91/node_quick_start_knex/issues"
+    "url": "https://github.com/narayansharma91/node_quick_start_with_knex/issues"
   },
-  "homepage": "https://github.com/narayansharma91/node_quick_start_knex#readme"
+  "homepage": "https://github.com/narayansharma91/node_quick_start_with_knex#readme"
 }
