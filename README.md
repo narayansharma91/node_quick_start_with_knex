@@ -3,7 +3,7 @@
 - Configured database connection.
 - Exception Handling
 - Implemented powerful query builder **knex**
-- Implemented **objection.js** a pwerful **ORM** package for knex.
+- Implemented **objection.js** a powerful **ORM** package for knex.
 - Unit Test
 - Validation
 - Linter (eslint, prettier) for code guideline and increase the readability of the code.
@@ -11,7 +11,7 @@
 <hr />
 
 ### Application File/Directory Structure
-![alt text](https://github.com/narayansharma91/repo_images/blob/master/node_quick_start_with_knex/node_quick_start_with_knex_file_structure.jpg)
+<img src="https://github.com/narayansharma91/repo_images/blob/master/node_quick_start_with_knex/node_quick_start_with_knex_file_structure.jpg" width="100%" height="350" />
 
 <hr />
 
@@ -29,7 +29,7 @@ git clone https://github.com/narayansharma91/node_quick_start_with_knex.git
 ```
 * Goto your project directory by command line.
 ```
-cd /node_quick_start_with_knex
+cd node_quick_start_with_knex
 ```
 * Install dependency of project using given below command
 ```
