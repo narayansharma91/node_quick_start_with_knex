@@ -29,7 +29,7 @@ git clone https://github.com/narayansharma91/node_quick_start_with_knex.git
 ```
 * Goto your project directory by command line.
 ```
-cd /node_quick_start_knex
+cd /node_quick_start_with_knex
 ```
 * Install dependency of project using given below command
 ```
@@ -50,7 +50,7 @@ knex migrate:latest
 ```
 * Start project using below command.
 ```
-nodemon index.js
+npm start
 ```
 
 <hr />
