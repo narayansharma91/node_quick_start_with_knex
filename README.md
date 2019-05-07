@@ -1,5 +1,5 @@
 ### Included features
-- Well structure of the file for a large project.
+- Well structure of the files for a large project.
 - Configured database connection.
 - Exception Handling
 - Implemented powerful query builder **knex**
