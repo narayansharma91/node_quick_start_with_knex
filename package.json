@@ -28,7 +28,8 @@
   "scripts": {
     "test": "mocha --recursive",
     "format": "./formatting.sh",
-    "setup": "cp -i .env.example .env"
+    "setup": "cp -i .env.example .env",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
